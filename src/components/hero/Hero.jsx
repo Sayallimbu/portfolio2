@@ -4,7 +4,7 @@ function Hero() {
   return (
     <>
       <div className="bghero">
-        <video autoplay muted loop>
+        <video autoPlay muted loop>
           <source src={Background} type="video/mp4" />
         </video>
       </div>

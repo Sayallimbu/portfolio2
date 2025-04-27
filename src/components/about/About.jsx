@@ -4,9 +4,9 @@ import "../../App.css"
 function About() {
   return (
    <>
-   <div class="body_section" id="about">
+   <div className="body_section" id="about">
         <img src={Images} />
-        <div class="intro">
+        <div className="intro">
           <h1>About Me</h1>
           <p>
             Hello! My name is Sayal Limbu, and I am currently studying in Grade

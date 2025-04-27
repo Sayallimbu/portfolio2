@@ -1,11 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faEnvelope,
   faFacebook,
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+
+import {
+faEnvelope
+} from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
@@ -16,7 +19,7 @@ function Contact() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon="fa-solid fa-envelope" />{" "}
+          <FontAwesomeIcon icon={faEnvelope} size="2x"/>
         </a>
         <a
           href="https://www.facebook.com/sayal24"
