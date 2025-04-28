@@ -1,0 +1,14 @@
+.experience-section{
+    background-color: #191D28;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+ 
+}
+
+.experience{
+    height: 100vh;
+border: 1px solid red;
+width: 80%;
+margin-top: 5%;
+}
