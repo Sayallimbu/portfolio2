@@ -9,6 +9,7 @@ function Navbar() {
             <a className="logo" href="#">Sayal Subba</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
+            <a href="#experience">Experience</a>
           </div>
 
           <a href=""><i className="fa-solid fa-magnifying-glass fa-1x"></i></a>

@@ -4,15 +4,17 @@ import Experiencecard from "./component/experiencecard";
 function experience() {
   return (
     <>
-      <div className={Css["experience"]}>
+      <div className={Css["experience"]} id="experience">
         <div className={Css["experience-section"]}>
           <h1>My Experience</h1>
-          <p>
+          <h2>
             There are many variations of passages ofLorem Ipsum available, but
             the majority havesuffered alteration in some form, by injected
             humour,
-          </p>
+          </h2>
         </div>
+      </div>
+      <div className={Css["card-whole"]}>
         <div className={Css["card-section"]}>
           <Experiencecard
             date="June-2002-2020"
