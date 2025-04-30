@@ -28,8 +28,8 @@ margin-left: 15%;
 margin-top: 6%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px ,1fr));
-    width: 80%;
-    margin-left: 15%;
+    width: 70%;
+align-self: center;
     gap: 25px;
 
 }

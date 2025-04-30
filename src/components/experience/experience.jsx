@@ -14,28 +14,28 @@ function experience() {
           </p>
         </div>
         <div className={Css["card-section"]}>
-            <Experiencecard
-              date="June-2002-2020"
-              name="UX/UI Designer"
-              type="Figma"
-              body="There are many variations of passages of Lorem Ipsumav ailable, but the majority have suffered 
+          <Experiencecard
+            date="June-2002-2020"
+            name="UX/UI Designer"
+            type="Figma"
+            body="There are many variations of passages of Lorem Ipsumav ailable, but the majority have suffered 
 alteration in some "
-            />
-            <Experiencecard
-              date="June-2002-2020"
-              name="Product Designer"
-              type="Adobe Photoshop"
-              body="There are many variations of passages of Lorem Ipsumav ailable, but the majority have suffered 
+          />
+          <Experiencecard
+            date="June-2002-2020"
+            name="Product Designer"
+            type="Adobe Photoshop"
+            body="There are many variations of passages of Lorem Ipsumav ailable, but the majority have suffered 
 alteration in some "
-            />
-            <Experiencecard
-              date="June-2002-2020"
-              name="Graphic Designer"
-              type="Adobe Photoshop"
-              body="There are many variations of passages of Lorem Ipsumav ailable, but the majority have suffered 
+          />
+          <Experiencecard
+            date="June-2002-2020"
+            name="Graphic Designer"
+            type="Adobe Photoshop"
+            body="There are many variations of passages of Lorem Ipsumav ailable, but the majority have suffered 
 alteration in some "
-            />
-          </div>
+          />
+        </div>
       </div>
     </>
   );

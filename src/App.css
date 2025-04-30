@@ -16,7 +16,7 @@ body {
 .pc_nav {
   display: flex;
   justify-content: center;
-  background-color: rgba(51, 51, 51, 0.);
+  background-color: rgba(51, 51, 51, 0);
   height: 58px;
   overflow: hidden;
   position: fixed;
@@ -27,7 +27,7 @@ body {
 .mobile_nav {
   display: none;
   justify-content: space-between;
-  background-color: rgba(51, 51, 51, 0.);
+  background-color: rgba(51, 51, 51, 0);
   height: 58px;
   overflow: hidden;
   position: fixed;
@@ -35,27 +35,25 @@ body {
   z-index: 1;
   padding: 20px;
   align-items: center;
-
 }
-.bghero{
+.bghero {
   font-size: 250px;
   position: absolute;
   display: flex;
   height: 100vh;
   width: 100%;
   /* background-image: "background_video.mp4"; */
-background-repeat: no-repeat;
-filter: brightness(60%);
-background-size: cover;
-z-index: -1;
-
+  background-repeat: no-repeat;
+  filter: brightness(60%);
+  background-size: cover;
+  z-index: -1;
 }
-.bghero video{
-object-fit: cover;
-width: 100%;
-/* height: 100vh; */
+.bghero video {
+  object-fit: cover;
+  width: 100%;
+  /* height: 100vh; */
 }
-.hero{
+.hero {
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -70,10 +68,8 @@ width: 100%;
   align-items: center;
   width: 1180px;
   height: 58px;
-
 }
 .topic a {
-
   color: #f2f2f2;
   text-decoration: none;
   padding: 14px 20px;
@@ -91,15 +87,14 @@ width: 100%;
 .content {
   display: flex;
   flex-direction: column;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 50px;
-  height: 100vh; 
+  height: 100vh;
 }
-h1 {  
-
-  color: #EAB308;
+h1 {
+  color: #eab308;
 }
 p {
   position: relative;
@@ -107,7 +102,8 @@ p {
   color: #e0e0e0;
 }
 a.button {
-  display: inline-block;  position: relative;
+  display: inline-block;
+  position: relative;
   top: 20px;
   margin-top: 20px;
   text-decoration: none;
@@ -122,81 +118,84 @@ a.button:hover {
 .body_section {
   background-color: #111827;
   text-align: left;
-  padding: 30px;
+  padding: 30px 0px;
   display: grid;
-  grid-template-columns: 3fr 5fr 1fr;
+  grid-template-columns: 1fr 5fr;
   gap: 20px;
-  justify-items: end;
-}
 
-.body_section img{
-  height: 200px;
-border-radius: 10%;
-margin-left: 20px;
+  width: 70%;
+  justify-self: center;
 }
-.intro{
+.body_section img {
+  height: 200px;
+  border-radius: 10%;
+}
+.intro {
   margin-left: 20px;
 }
-.intro h1{
-  color: #EAB308;
-
+.intro h1 {
+  color: #eab308;
 }
-.portfolio{
+.portfolio {
   height: 500px;
   background-color: #080808;
-
 }
-.portfolio h1{
+.portfolio h1 {
   text-align: center;
   padding-top: 20px;
 }
-.contact{
-  /* border: 1px solid red; */
-display: grid;
-background-color: #111827;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2, 100px);
-justify-content: center;
-justify-items: center;
-column-gap: 20px;
-align-items: center;
-width: 70%;
-margin-bottom: 20px;
+.contact {
+  display: grid;
+  background-color: #111827;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  justify-content: center;
+  justify-items: center;
+  column-gap: 20px;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.contact a{
+.contact a {
   background-color: #020617;
   color: #fff;
   border-radius: 10px;
-  width: 100%;
-  padding:30px 0px ;
+  width: inherit;
+  padding: 30px 0px;
   text-align: center;
   transition: all 0.3s ease;
 }
-.contact a:hover{
+.contact a:hover {
   background-color: #003369;
   transform: scale(1.03);
-
 }
-.contact a:active{
-  background-color: #111827;}
-.centre{
+.contact a:active {
+  background-color: #111827;
+}
+
+.centre {
+  width: 70%;
+
   background-color: #111827;
   display: flex;
-  justify-content: center;
+  justify-self: center;
   margin-bottom: 40px;
+  flex-direction: column;
 }
 
-@media all and (max-width: 710px){
-  .pc_nav{
+.centre h1 {
+  margin: 10px 0px 30px 0px;
+}
+@media all and (max-width: 710px) {
+  .pc_nav {
     display: none;
   }
-  .mobile_nav{
+  .mobile_nav {
     display: flex;
-
   }
 
-  .body_section{
+  .body_section {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-items: start;
   }

@@ -1,10 +1,11 @@
-import React from 'react'
-import Images from "../../assets/images/pp.jpg"
-import "../../App.css"
+import React from "react";
+import Images from "../../assets/images/pp.jpg";
+import "../../App.css";
 function About() {
   return (
-   <>
-   <div className="body_section" id="about">
+    <>
+      <div className="about-sub">
+      <div className="body_section" id="about">
         <img src={Images} />
         <div className="intro">
           <h1>About Me</h1>
@@ -17,9 +18,10 @@ function About() {
             skills and explore the world of programming.
           </p>
         </div>
+        </div>
       </div>
-   </>
-  )
+    </>
+  );
 }
 
-export default About
+export default About;
